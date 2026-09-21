@@ -62,3 +62,40 @@ footer {
   font-size: 0.8em;
   color: #8a7f68;
 }
+
+/* Inner concept pages (cave, chains, shadows, fire, sun, philosopher) */
+
+.concept-image {
+  width: 300px;
+  max-width: 80%;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #f0e6d2;
+  border-radius: 6px;
+}
+
+.body-text {
+  max-width: 600px;
+  margin: 20px auto 30px;
+  line-height: 1.6;
+  font-size: 1.1em;
+  color: #d8cbb0;
+  text-align: left;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 22px;
+  background-color: #3a3226;
+  color: #f0e6d2;
+  text-decoration: none;
+  border: 1px solid #6b5e46;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.back-link:hover {
+  background-color: #6b5e46;
+  transform: translateY(-3px);
+}
